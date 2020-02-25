@@ -97,6 +97,246 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+}
+
+section {
+
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h4 {
+  
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+section {
+  margin: 0;
+}
+
+
+/* -------- Base Header - Footer Styles -------- */
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background: #202322;
+  color: #fff;
+}
+
+header {
+
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+header figure {
+  margin: 0;
+  width: 80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header img {
+  width: 300px;
+  height: auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 80%;
+  margin-top: 10px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+
+}
+
+footer {
+  padding: 40px 0;
+}
+
+footer ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+footer h3 {
+  width: 100%;
+  font-size: 1em;
+  text-align: center;
+}
+
+
+/* -------- Mobile Styles - Homepage -------- */
+
+/* Hero Area */
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/hero.jpg) center no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.hero {
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.hero .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
+}
+
+.hero h4 {
+  color: white;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Services List */
+.services-list {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.services-list h2 {
+  text-align: center;
+}
+
+.services-list ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.services-list ul li {
+  width: 100%;
+  text-align: center;
+  background: cornflowerblue;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Pre-trial */
+.pretrial-hero {
+  background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/court1.jpg) center no-repeat;
+}
+
+.pretrial {
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Trial and Courtroom */
+.trial-hero {
+  background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/building.jpg) center no-repeat;
+}
+
+.trial-and-courtroom {
+  background-color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* War Room */
+.warroom-hero {
+  background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/warroom.jpg) center no-repeat;
+}
+
+.war-room {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Additional Services */
+.addservices-hero {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/camera.jpg) center no-repeat;
+}
+
+.add-services {
+  background: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
