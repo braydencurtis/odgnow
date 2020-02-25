@@ -109,9 +109,26 @@ section {
 
 }
 
+a {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: #04724D;
+  transition: all 0.3;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 h1 {
   font-size: 3em;
   font-weight: bold;
+}
+
+h2 {
+  color: black;
 }
 
 h4 {
@@ -171,7 +188,7 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 80%;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 header nav ul {
@@ -182,7 +199,10 @@ header nav ul {
   width: 100%;
   list-style: none;
   padding: 0;
+}
 
+header nav ul li {
+  font-size: 1.2em;
 }
 
 footer {
@@ -208,6 +228,18 @@ footer h3 {
 
 
 /* -------- Mobile Styles - Homepage -------- */
+
+section {
+  color: white;
+}
+
+section ul {
+  line-height: 2em;
+}
+
+section li {
+  margin: 15px 0;
+}
 
 /* Hero Area */
 .hero-area {
