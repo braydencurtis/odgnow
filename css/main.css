@@ -288,10 +288,15 @@ section li {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: black;
 }
 
 .services-list h2 {
   text-align: center;
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .services-list ul {
@@ -302,6 +307,37 @@ section li {
   flex-flow: row wrap;
   margin: 0;
   padding: 0;
+}
+
+.services-list .services-items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.services-list article {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.fontawesome-icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.services-list i {
+  font-size: 3.75em;
+  margin-bottom: 20px;
+}
+
+.services-list .features-item-description {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
 }
 
 .services-list ul li {
