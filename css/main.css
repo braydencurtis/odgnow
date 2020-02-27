@@ -103,6 +103,7 @@ html {
 
 body {
   font-size: 1em;
+  background: #333333;
 }
 
 section {
@@ -288,7 +289,6 @@ section li {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background: black;
 }
 
 .services-list h2 {
@@ -343,7 +343,6 @@ section li {
 .services-list ul li {
   width: 100%;
   text-align: center;
-  background: cornflowerblue;
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
@@ -355,7 +354,6 @@ section li {
 }
 
 .pretrial {
-  background-color: crimson;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -368,7 +366,6 @@ section li {
 }
 
 .trial-and-courtroom {
-  background-color: darkgreen;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -381,7 +378,6 @@ section li {
 }
 
 .war-room {
-  background-color: orange;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -394,7 +390,6 @@ section li {
 }
 
 .add-services {
-  background: pink;
   display: flex;
   justify-content: center;
   align-items: center;
