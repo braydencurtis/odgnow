@@ -352,6 +352,7 @@ section li {
 /* Pre-trial */
 .pretrial-hero {
   background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/court1.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .pretrial {
@@ -364,6 +365,7 @@ section li {
 /* Trial and Courtroom */
 .trial-hero {
   background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/building.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .trial-and-courtroom {
@@ -376,6 +378,7 @@ section li {
 /* War Room */
 .warroom-hero {
   background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/warroom.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .war-room {
@@ -388,6 +391,7 @@ section li {
 /* Additional Services */
 .addservices-hero {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/camera.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .add-services {
@@ -416,7 +420,7 @@ section li {
 }
 
 .clients .client-logos {
-  display; flex;
+  display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
@@ -569,6 +573,10 @@ section li {
   }
 
   /* Services */
+  .services-list h2 {
+    margin-bottom: 100px;
+  }
+  
   .services-list .service-items {
     display: flex;
     justify-content: space-evenly;
@@ -587,6 +595,16 @@ section li {
 
   .services-list .features-item-description {
     font-size: 1.5em; 
+   }
+
+   /* HERO AREAS */
+   .hero {
+     height: 400px;
+   }
+   
+   .hero h4 {
+     font-size: 5em;
+
    }
 }
 
