@@ -103,8 +103,8 @@ html {
 
 body {
   font-size: 1em;
-  background: #fff;
-  color: #333;
+  background: #333;
+  color: #fff;
 }
 
 section {
@@ -131,6 +131,7 @@ h1 {
 
 h2 {
 }
+
 
 h4 {
   margin-bottom: 25px;
@@ -214,6 +215,10 @@ footer {
   padding: 40px 0;
 }
 
+footer .content-wrapper {
+  margin: 0;
+}
+
 footer ul {
   width: 100%;
   list-style: none;
@@ -235,7 +240,7 @@ footer h3 {
 /* -------- Mobile Styles - Homepage -------- */
 
 section {
-  color: #333;
+  color: #fff;
 }
 
 section ul {
@@ -295,9 +300,8 @@ section li {
   flex-flow: row wrap;
 }
 
-.services-list h2 {
+.services-list h3 {
   text-align: center;
-  color: white;
   font-size: 4em;
   font-weight: bold;
   margin-bottom: 50px;
@@ -642,6 +646,71 @@ section li {
   }
   
 }
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop Styles */
+  
+  /* General Styles */
+  body {
+
+  }
+  .content-wrapper {
+    width: 1000px;
+    justify-content: center;
+  }
+
+  section ul {
+    width: 900px;
+  }
+
+  section li {
+    font-size: 1.25em;
+  }
+
+  /* Header Styles */
+  header h1 {
+    font-size: 6em;
+  }
+
+  header .content-wrapper {
+    max-width: 1000px;
+  }
+
+  /* Trial and Courtroom Styles */
+  .trial-and-courtroom .content-wrapper{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+
+  .two-col {
+    width: 400px;
+  }
+  .two-col h4{ 
+    text-align: center;
+    }
+  .two-col ul {
+    width: 100%;
+  }
+
+  /* Clients */
+  .client-logos {
+    justify-content: center;
+    flex-basis: 33%;
+  }
+
+
+
+
+
+
+
+
+}
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
