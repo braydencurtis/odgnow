@@ -133,7 +133,7 @@ h2 {
 }
 
 h4 {
-  
+  margin-bottom: 25px;
 }
 
 .content-wrapper {
@@ -273,7 +273,7 @@ section li {
   flex-flow: row-wrap;
 }
 
-.hero h4 {
+.hero h2 {
   color: white;
   font-size: 3em;
   text-transform: uppercase;
@@ -373,6 +373,10 @@ section li {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.gap {
+  margin-bottom: 100px;
 }
 
 /* War Room */
@@ -542,6 +546,12 @@ section li {
     font-size: 5em;
   }
 
+  h3 {
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: bold;
+  }
   h4 {
     font-size: 4em;
   }
@@ -602,10 +612,22 @@ section li {
      height: 400px;
    }
    
-   .hero h4 {
+   .hero h2 {
      font-size: 5em;
-
    }
+
+   /* CLIENTS */
+   .clients .client-logos {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .clients img {
+    width: 300px;
+    height: auto;
+  }
+  
 }
 
 @media print,
