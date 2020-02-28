@@ -103,7 +103,8 @@ html {
 
 body {
   font-size: 1em;
-  background: #333333;
+  background: #fff;
+  color: #333;
 }
 
 section {
@@ -129,7 +130,6 @@ h1 {
 }
 
 h2 {
-  color: black;
 }
 
 h4 {
@@ -202,6 +202,10 @@ header nav ul {
   padding: 0;
 }
 
+header h1 {
+  color: #fff;
+}
+
 header nav ul li {
   font-size: 1.2em;
 }
@@ -231,7 +235,7 @@ footer h3 {
 /* -------- Mobile Styles - Homepage -------- */
 
 section {
-  color: white;
+  color: #333;
 }
 
 section ul {
@@ -626,6 +630,15 @@ section li {
   .clients img {
     width: 300px;
     height: auto;
+  }
+
+  /* Footer */
+  footer {
+    padding: 30px;
+  }
+
+  footer h3 {
+    margin: 0;
   }
   
 }
