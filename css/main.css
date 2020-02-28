@@ -396,6 +396,36 @@ section li {
   flex-flow: row wrap;
 }
 
+/* Clients */
+.clients {
+  background: #fff;
+  /* padding: 15px; */
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+
+.clients h3 {
+  color: #333;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 45px;
+}
+
+.clients .client-logos {
+  display; flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.clients img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+}
 
 
 
