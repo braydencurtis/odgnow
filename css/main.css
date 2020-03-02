@@ -44,6 +44,10 @@
     color: lightgray;
 }
 
+.llc-h1 {
+    font-size: 0.75em;
+}
+
 .service {
     min-height: 240px;
     color: #fff;
