@@ -95,6 +95,10 @@
     width: 100%;
 }
 
+form {
+    color: white;
+}
+
 @media (min-width: 768px) {
     .client {
         width: 50%;
