@@ -84,3 +84,20 @@
     font-style: italic;
     font-weight: 100;
 }
+
+/*Clients*/
+.client {
+    width: 100%;
+    height: auto;
+}
+
+.client img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .client {
+        width: 50%;
+        padding: 15px;
+    }
+}
