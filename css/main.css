@@ -1,4 +1,63 @@
+/* Modal Colors */
+.cyan {
+    background: #17a2b8;
+}
+
+.red {
+    background: #dd5a67;
+}
+
+.purple {
+    background: #A167A5;
+}
+
+.yellow {
+    background: #ffc107;
+}
+
+.tan {
+    background: #CA895F;
+}
+
+.gray {
+    background: #6c757d;
+}
+
+.mint {
+    background: #1abc9c;
+}
+
+.pink {
+    background: #FE80B3;
+}
+
+.orange {
+    background: #F08A4B;
+}
+
+/* Logo */
+.on-mint {
+    color: #1abc9c;
+}
+
+.demand-grey {
+    color: lightgray;
+}
+
 .service {
-    background: #333;
     min-height: 240px;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.service i {
+    font-size: 5em;
+    margin-bottom: 25px;
+    text-shadow: 5px 5px #42585C;
+    
 }
