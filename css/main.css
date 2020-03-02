@@ -99,9 +99,18 @@ form {
     color: white;
 }
 
+.modal li {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
 @media (min-width: 768px) {
     .client {
         width: 50%;
         padding: 15px;
+    }
+
+    .modal li {
+        font-size: 1.5em;
     }
 }
