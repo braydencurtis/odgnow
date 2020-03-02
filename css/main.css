@@ -559,7 +559,9 @@ footer h3 {
 
   /* General Styles */
   body {
-  
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
   }
 
   .content-wrapper {
@@ -611,6 +613,16 @@ footer h3 {
     max-width: 300px;
     margin-top: 0px;
   }
+
+
+  /* Hero Area  */
+  .hero-area {
+    width: 100%;
+  }
+
+
+
+
 
   /* Services */
   .services-list h2 {
@@ -701,6 +713,11 @@ footer h3 {
   header .content-wrapper {
     max-width: 1000px;
   }
+
+    /* Hero Area  */
+    .hero-area {
+      width: 1000px;
+    }
 
   /* Trial and Courtroom Styles */
   .trial-and-courtroom .content-wrapper{
