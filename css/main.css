@@ -65,3 +65,22 @@
     text-shadow: 5px 5px #42585C;
     
 }
+
+/* Team */
+.team-headshot {
+    border-radius: 50%;
+    border: solid 15px white;
+}
+
+.team-bio {
+    margin-bottom: 50px;
+    /* background: white;
+    color: #1abc9c;
+    padding: 10px;
+    border-radius: 25px; */
+}
+
+.team-bio h5 {
+    font-style: italic;
+    font-weight: 100;
+}
