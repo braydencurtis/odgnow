@@ -115,6 +115,16 @@ footer ul {
     padding: 0;
 }
 
+footer .footer-item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+footer p {
+    width: 60%;
+}
+
 @media (min-width: 512px) {
     .llc-h1 {
         display: inline;
@@ -131,6 +141,12 @@ footer ul {
 
     .modal li {
         font-size: 1.5em;
+    }
+}
+
+@media (min-width: 992px) {
+    footer p {
+        width: 100%;
     }
 }
 
